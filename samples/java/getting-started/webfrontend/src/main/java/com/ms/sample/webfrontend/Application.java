@@ -17,6 +17,6 @@ public class Application {
     @RequestMapping(value = "/greeting", produces = "text/plain")
     public String greeting() {
         return "Hello from webfrontend";
-        return "Wow, it is easy to deploy a java application using Azure DevOps"; 
+        
     }
 }
